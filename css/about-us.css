@@ -32,7 +32,7 @@
           justify-content: center;
   width: 270px;
   height: 120px;
-  background: --bg-grey;
+  background: var(--bg-grey);
   border-radius: 4px;
 }
 

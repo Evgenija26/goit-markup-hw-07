@@ -9,6 +9,7 @@
   /* bacground colors */
   --white: #ffffff;
   --secondary-bg-cl: #E5E5E5;
+  --black: #000000;
   --bg-dark: #2F303A;
   /* icon color */
   --icon-color: #AFB1B8;
@@ -444,7 +445,7 @@ img {
   margin-right: 7px;
   -webkit-transition: background-color 250ms var(--hover-cubic);
   transition: background-color 250ms var(--hover-cubic);
-  fill: #ffffff;
+  fill: var(--white);
 }
 .modal .custom-checkbox:focus + .custom-checkbox {
   border-color: var(--accent-cl);
@@ -827,7 +828,7 @@ img {
           align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 /*============================*/
@@ -864,7 +865,7 @@ img {
           justify-content: center;
   width: 270px;
   height: 120px;
-  background: --bg-grey;
+  background: var(--bg-grey);
   border-radius: 4px;
 }
 
@@ -956,7 +957,7 @@ img {
 /* Team */
 /*============================*/
 .team__section {
-  background: --bg-grey;
+  background: var(--bg-grey);
   padding-top: 94px;
   padding-bottom: 94px;
 }

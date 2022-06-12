@@ -220,7 +220,7 @@
     margin-right: 7px;
     transition: background-color 250ms var(--hover-cubic);
 
-    fill: #ffffff;
+    fill: var(--white);
     
     
     &:focus+.custom-checkbox {

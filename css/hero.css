@@ -70,5 +70,5 @@
           align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: var(--white);
 }/*# sourceMappingURL=hero.css.map */
